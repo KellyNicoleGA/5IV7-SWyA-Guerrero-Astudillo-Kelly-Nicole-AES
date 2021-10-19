@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    width: 100%;
+    background: white ;
+    border: 0;
+    margin: 0;
+    border: 0;
+}
+header{
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    background-color: white;
+    color: #20b2aa;
+    font-family: 'Calibri Light';
+}
+header p{
+    font-family: 'Century Gothic';
+    text-align: center;
+}
+.aes{
+    color: #20b2aa;
+    font-family: 'AcapelaDEMO';
+    font-size: 1.5rem;
+    padding: .5rem;
+    text-align: center;
+} 
+input{
+    background-color: white;
+    color: #20b2aa;
+    margin: 0 auto;
+    width: 25%;
+    font-family: 'Century Gothic';
+    font-size: 1rem;
+    padding: .5rem;
+    vertical-align: middle;
+    border: #20b2aa 1px solid; 
+}
+input:hover{
+    background-color: #20b2aa;
+    border: white;
+    color: white;
+}
+.centrar{
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+.texto, .aes, form, .textocifrado{
+    display: block;
+}
+form {
+    margin: 0 auto;
+    margin-top: 5rem;
+    width: 100%;
+    padding: 1%;
+    color: black;
+    font-family: 'Calibri Light';
+}
+form input {
+    margin: 0rem;;
+}
+input[type=radio]{
+    margin-left : 2rem;
+    width: 1rem;
+}
+#texto, #textocifrado, #mensajecifrado, #mensajedescifrado{
+    width: 47%;
+    color: black;
+    font-family: 'Calibri Light';
+    font-size: 1rem;
+    color: #20b2aa;
+    border-color:  #20b2aa;
+    display: inline-block;
+    margin: 5%;
+    
+    vertical-align: middle;
+}
+#texto:focus,#textocifrado:focus, #mensajecifrado:focus, #mensajedescifrado:focus{
+    border-color:  #20b2aa;
+    outline: 0 none;
+}
+#archivo, #desc, a{
+    display: block;
+    margin-top: 1rem;
+}
+#archivo{
+    width: 98%;
+}
+#archivoc{
+    width: 25%;
+    margin: 0 auto;
+    display: block;
+}
+a{
+    text-align: center;
+    color: #20b2aa;
+    font-family: 'Calibri Light';
+    font-size: 1.2rem;
+    font-weight: normal;
+    text-decoration: none;
+}
+a:hover{
+    color: #20b2aa;
+    font-weight: bold;
+    
+}
+
+.t{
+    width: 30%;
+    vertical-align: middle;
+    padding: 2rem;
+}
+.t, .centrar{
+    display: inline-block;
+}
+footer{
+    background-color: white ;
+    padding: 1rem;
+    color: #20b2aa;
+    font-family: 'Calibri Light';
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: 0;
+    width: 97.5%;
+
+}

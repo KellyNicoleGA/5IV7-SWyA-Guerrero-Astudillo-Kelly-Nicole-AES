@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <title>AES</title>
+</head>
+<body>
+    <header>
+        <p>Kelly Nicole Guerrero Astudillo 5IV7</p>
+    </header>
+    
+    <div class="centrar">
+        <p class="aes">Cifrado AES</p>
+
+        <form>
+            <input type="radio" name="tipo" value="128" id="uno" onclick="lenghtPassword()"><span id="spanuno">128</span>
+            <input type="text" placeholder="Password (16)" id="passworduno" maxlength="16">
+
+            <input type="radio" name="tipo" value="192" id="dos" onclick= "lenghtPassword()"><span id="spandos">192</span>
+            <input type="text" placeholder="Password (24)" id="passworddos" maxlength="24">
+
+            <input type="radio" name="tipo" value="256" id="tres" onclick= "lenghtPassword()"><span id="spantres">256</span>
+            <input type="text" placeholder="Password (32)" id="passwordtres" maxlength="32">
+            
+        </form>
+        
+
+        <textarea  cols="30" rows="10" id="texto" placeholder="texto"></textarea>
+        <div class="t">
+            <input type="button" value="Cifrar" onclick="guardarArchivoCifrado()" id="archivoc">
+
+            <a href="./descifrado.html">Descifrar</a>
+        </div>
+
+    </div>
+
+    <footer>
+        Contacto: guerrerokellynicole@gmail.com
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+
+    <script src="./js/aes.js" ></script>
+</body>
+</html>
